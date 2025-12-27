@@ -1,0 +1,31 @@
+{
+  "name": "barn-v1",
+  "version": "1.0.0",
+  "description": "Degen Derby HORSE Token Automation Tool",
+  "type": "module",
+  "main": "barn_v1.js",
+  "bin": "barn_v1.js",
+  "pkg": {
+    "targets": [
+      "node18-win-x64"
+    ]
+  },
+  "scripts": {
+    "start": "node barn_v1.js"
+  },
+  "keywords": [
+    "solana",
+    "degen-derby",
+    "horse-token",
+    "token-transfer",
+    "automation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^17.2.3"
+  }
+}
